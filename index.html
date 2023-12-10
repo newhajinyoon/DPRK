@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>광명 및 흘림체 Example</title>
+    <title>광명 & 흘림체 Example</title>
     <style>
         @font-face {
             font-family: 'Gwangmyeong-Font';
@@ -11,19 +11,29 @@
         }
 
         @font-face {
-            font-family: 'NanumGothic-Font';
-            src: local('NanumGothic'), url('흘림체.ttf') format('truetype');
+            font-family: 'Heulim-Font';
+            src: local('Heulim'), url('흘림체.ttf') format('truetype');
         }
 
         body {
-            font-family: 'Gwangmyeong-Font', 'NanumGothic-Font', sans-serif;
             text-align: center;
             padding: 50px;
+        }
+
+        h1 {
+            font-family: 'Gwangmyeong-Font', sans-serif;
+        }
+
+        p {
+            font-family: 'Heulim-Font', sans-serif;
         }
     </style>
 </head>
 <body>
-    <h1>안녕하세요, 광명 폰트와 흘림체 폰트를 사용한 예제입니다!</h1>
-    <p>이 텍스트는 광명 폰트와 흘림체 폰트로 스타일링되었습니다.</p>
+    <h1>안녕하세요, 광명 폰트를 사용한 예제입니다!</h1>
+    <p>이 텍스트는 광명 폰트로 스타일링되었습니다.</p>
+
+    <h1>안녕하세요, 흘림체 폰트를 사용한 예제입니다!</h1>
+    <p>이 텍스트는 흘림체 폰트로 스타일링되었습니다.</p>
 </body>
 </html>
